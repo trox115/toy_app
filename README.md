@@ -37,14 +37,15 @@ For the installation follow [The Instalation Guide](https://www.tutorialspoint.c
 
 # Running Guide
 
-Once you have installed the requiered packages shown on the [Required Installations](# Required Installations), put the following commands in your terminal/console
+Once you have installed the requiered packages shown on the [Required Installations](https://github.com/trox115/toy_app/tree/feature/readme-update#required-installations), put the following commands in your terminal/console
 
-```console
-your-pc$git clone https://github.com/trox115/toy_app.git
-your-pc$cd toy_app
-your-pc$rake db:migrate
-your-pc$rails server
+```Shell
+your@pc:~$ git clone https://github.com/trox115/toy_app.git
+your@pc:~$ cd toy_app
+your@pc:~$ rake db:migrate
+your@pc:~$ rails server
 
 ```
+
 
 Then, go to [http://localhost:3000/](http://localhost:3000/)
